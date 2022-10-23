@@ -41,7 +41,7 @@ def newton_fit (x: list[float], y: list[float], max_iter: int= 100, verbose: boo
       def dda (a: float) -> float:
             return sum_x_squared
 
-      # Constant modified second partial derivative relative to b
+      # Constant second partial derivative relative to b
       def ddb (b: float) -> float:
             return 1
       
